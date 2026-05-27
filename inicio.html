@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Talento Tech Ecommerce</title>
+    <!-- Font Awesome: librería de íconos -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <!-- Hoja de estilos principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ==================== HEADER ==================== -->
+    <!-- Barra de navegación fija en la parte superior -->
+    <header class="header">
+        <a href="#">
+            <img src="imagenes/logo1.png" class="logo" alt="Logo Talento Tech" width="40px" height="40px">
+        </a>
+        <div>
+            <ul id="navbar" class="navbar">
+                <li><a href="inicio.html">Home</a></li>
+                <li><a href="#">Tienda</a></li>
+                <li><a href="">Reseñas</a></li>
+                <li><a href="">Acerca de</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li>
+                    <!-- Ícono del carrito de compras -->
+                    <a href="./pages/carrito.html">
+                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <!-- Botón para cerrar el menú en versión mobile -->
+                <a href="#" id="close" class="close">
+                    <i class="far fa-times" aria-hidden="true"></i>
+                </a>
+            </ul>
+        </div>
+        <!-- Versión mobile: ícono hamburguesa -->
+        <div class="mobile">
+            <a href="pages/carrito.html">
+                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            </a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- ==================== HERO ==================== -->
+        <!-- Sección principal con imagen de fondo y llamada a la acción -->
+        <section class="hero">
+            <div class="hero-content">
+                <h4>¡Encontrá el libro que buscás!</h4>
+                <h2>Súper ofertas</h2>
+                <h1>En cientos de libros</h1>
+                <p>¡Aprovechá cupones y descuentos de hasta el 40%!</p>
+                <button>Comprar</button>
+            </div>
+        </section>
+
+        <!-- ==================== PRODUCTOS ==================== -->
+        <!-- Sección de productos destacados usando Flexbox -->
+        <section class="section-productos section-p1">
+            <h2>Más vendidos</h2>
+            <p>Libros que no te podés perder</p>
+            <div class="productos-container">
+
+                <!-- Card de producto -->
+                <div class="producto">
+                    <img src="imagenes/juego_de_tronos.jpg" alt="Juego de tronos">
+                    <div class="producto-descripcion">
+                        <span>Fantasia</span>
+                        <h5>Juego de tronos</h5>
+                        <h4>$35.000</h4>
+                    </div>
+                    <a href="#" class="carrito">
+                        <i class="fal fa-cart-arrow-down"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="imagenes/nuestra_parte_de_noche.jpg" alt="Nuestra parte de noche">
+                    <div class="producto-descripcion">
+                        <span>Ficción</span>
+                        <h5>Nuestra parte de noche</h5>
+                        <h4>$40.000</h4>
+                    </div>
+                    <a href="#" class="carrito">
+                        <i class="fal fa-cart-arrow-down"></i> Agregar
+                    </a>
+                </div>
+
+                <div class="producto">
+                    <img src="imagenes/images.jpg" alt="Una abitación propia">
+                    <div class="producto-descripcion">
+                        <span>Ensayo</span>
+                        <h5>Una habitación propia</h5>
+                        <h4>$25.000</h4>
+                    </div>
+                    <a href="#" class="carrito">
+                        <i class="fal fa-cart-arrow-down"></i> Agregar
+                    </a>
+                </div>
+               
+
+            </div>
+        </section>
+
+        <!-- ==================== BANNER ==================== -->
+
+        <section class="banner section-m1">
+            <h4>Encuentra tu próxima lectura</h4>
+            <h2>Hasta <span>40% OFF</span> - Cientos de títulos</h2>
+            <button>Ver más</button>
+        </section>
+
+
+        <!-- ==================== NEWSLETTER ==================== -->
+        <!-- Sección de suscripción por email -->
+        <section class="newsletter section-p1 section-m1">
+            <div class="newstext">
+                <h4>Suscribite al Newsletter</h4>
+                <p>Recibí novedades de nuestra tienda y <span>ofertas exclusivas</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Tu correo electrónico">
+                <button>Suscribirme</button>
+            </div>
+        </section>
+
+      
+    </main>
+    <!-- ==================== FOOTER ==================== -->
+
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contacto</h4>
+            <p><strong>Dirección:</strong> Av. Siempreviva 742, Ciudad Autónoma de Buenos Aires</p>
+            <p><strong>Teléfono:</strong> +54 11 1234 5678</p>
+            <p><strong>Horario:</strong> 9:00 - 19:00, Lunes a Viernes</p>
+            <div class="follow">
+                <h4>Seguinos</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>Mi Cuenta</h4>
+            <a href="#">Iniciar Sesión</a>
+            <a href="#">Ver Carrito</a>
+            <a href="#">Mis Favoritos</a>
+            <a href="#">Seguimiento de Pedido</a>
+            <a href="#">Ayuda</a>
+        </div>
+        <div class="col install">
+            <h4>Descargá la App</h4>
+            <p>Desde App Store o Google Play</p>
+            <div class="row">
+                <img src="imagenes/app.jpg" alt="App Store">
+                <img src="imagenes/play.jpg" alt="Google Play">
+            </div>
+            <p>Pasarelas de pago seguras</p>
+            <img src="imagenes/pay.png" alt="Métodos de Pago">
+        </div>
+        <div class="copyright">
+            <p>© 2026, Daniela Segurosky | Talento Tech - Ecommerce</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
