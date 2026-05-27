@@ -109,7 +109,7 @@ Este proyecto es de uso educativo.
 
 
 
-## Comentarios acerca d
+## Comentarios 
 - Decidi hacer un e-commerce de venta de libros. 
 - Utilicé como base para mi html el archivo que nos fue compartido en la clase práctica (header,hero,banner,newsletter y footer).
 - Busqué imagenes para usar en hero y productos (portadas de libros). Creé una carpeta llamada imagenes para guardar todas ahi.
